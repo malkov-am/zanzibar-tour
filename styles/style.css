@@ -1,0 +1,493 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(../images/header/header-image-1.jpg) no-repeat;
+  height: 738px;
+}
+
+.navigation-bar {
+  padding: 20px 80px 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+}
+
+.menu__link {
+  color: #fbf8f8;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.menu__link:hover {
+  opacity: 0.6;
+}
+
+.phone-number {
+  color: #fbf8f8;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-text-box {
+  color: #fbf8f8;
+  margin: 80px 0 0 80px;
+}
+
+.header-text-box__title {
+  margin: 0 0 18px 0;
+  font-family: "PT Serif", serif;
+  font-size: 96px;
+  font-weight: normal;
+}
+
+.box__line {
+  width: 100px;
+  height: 10px;
+  margin: 0 0 20px 0;
+}
+
+.box__line_color_white {
+  border-bottom: 2px solid #fbf8f8;
+}
+
+.box__line_color_blue {
+  border-bottom: 4px solid #0180aa;
+}
+
+.header-text-box__subtitle {
+  margin: 0 0 30px 0;
+  font-family: "Gayathri", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.btn-book {
+  margin: 0;
+  font-family: "Gayathri", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  padding: 16px 28px 10px 28px;
+  border-radius: 5px;
+  transition: all 0.4s;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-beige {
+  background-color: #fff;
+}
+
+.btn-beige:hover {
+  background-color: #fff5ee;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue {
+  background-color: #4ad3de;
+}
+
+.btn-blue:hover {
+  background-color: #80e0e8;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.paradise {
+  background-color: #fff5ee;
+  height: 912px;
+  margin: 0;
+  position: relative;
+}
+
+.paradise__container {
+  display: flex;
+  gap: 83px;
+}
+
+.paradise__main-image-container {
+  width: 423px;
+  height: 738px;
+  overflow: hidden;
+  margin: 80px 0 104px 76px;
+  border-radius: 10px;
+}
+
+.paradise__main-image {
+  width: 423px;
+  height: 738px;
+  transition: all 0.4s;
+}
+
+.paradise__main-image:hover {
+  transform: scale(1.02);
+}
+
+.paradise__second-image {
+  width: 168px;
+  height: 283px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.paradise__text-box {
+  width: 482px;
+  margin-top: 210px;
+}
+
+.section-name {
+  font-family: "Gayathri", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #015980;
+  text-transform: uppercase;
+  margin: 0 0 35px 0;
+}
+
+.title {
+  font-family: "PT Serif", serif;
+  font-size: 56px;
+  font-weight: normal;
+  color: #0180aa;
+  margin: 0 0 36px 0;
+}
+
+.description {
+  font-family: "Gayathri", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #1f2c31;
+  margin: 0 0 52px 0;
+}
+
+.paradise__description-box {
+  margin-left: 131px;
+}
+
+.excursions {
+  height: 900px;
+  margin: 75px 0;
+}
+
+.subtitle {
+  font-family: "Gayathri", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0 0 33px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  transition: all 0.6s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card__img {
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-family: "PT Serif", serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #0180aa;
+  margin: 0 0 0 0;
+  padding: 0 20px;
+}
+
+.card__description {
+  font-family: "Gayathri", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+.excursions__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  height: 900px;
+  background-color: #fff5ee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.info__subtitle {
+  width: 578px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info__features {
+  width: 1056px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 108px;
+}
+
+.feature {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.feature__name {
+  font-family: "Gayathri", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.info__images {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.info__img-container {
+  width: 380px;
+  height: 380px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.info__img {
+  width: 380px;
+  height: 380px;
+  transition: all 0.6s;
+}
+
+.info__img:hover {
+  transform: scale(1.05);
+}
+
+.about {
+}
+
+.about__heading {
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+
+.about__text {
+  margin: 0 0 80px 185px;
+  width: 440px;
+  min-height: 394px;
+  padding-top: 65px;
+}
+
+.about__content {
+  display: flex;
+  column-gap: 172px;
+}
+
+.social-icons_place_about {
+  margin: 60px 0 0 240px;
+}
+
+.about__img {
+  width: 421px;
+  height: 539px;
+  object-fit: cover;
+}
+
+.paragraph {
+  font-family: "Gayathri", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 42px 0;
+}
+
+.subheading {
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 46px;
+  color: #0180aa;
+  margin: 0 0 9px 0;
+}
+
+.book {
+  height: 800px;
+  background: url(../images/book/background.png) no-repeat;
+}
+
+.booking-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 132px;
+}
+
+.booking-form {
+  border: 0;
+}
+
+.form-item {
+  display: block;
+  border: none;
+  width: 400px;
+  height: 56px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1f2c31;
+  font-family: "Gayathri", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 15px 10px 10px 10px;
+}
+
+.form-item:focus {
+  outline: 3px solid #015980;
+}
+
+.btn-submit {
+  width: 400px;
+  height: 56px;
+  background-color: #4ad3de;
+  border-radius: 12px;
+  border: 0;
+  font-family: "Gayathri", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.6s, box-shadow 0.6s;
+  padding-top: 10px;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit:hover {
+  background-color: #80e0e8;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit:focus {
+  outline: 3px solid #015980;
+}
+
+.footer {
+  min-height: 272px;
+  background-color: #0180aa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.footer__contacts {
+  display: flex;
+  gap: 43px;
+  margin-top: 20px;
+  align-items: baseline;
+}
+
+.footer__contact {
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: normal;
+  color: #fff5ee;
+  margin: 0px 0 50px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  bottom: -5px;
+}
+
+.social-icon {
+  transition: opacity 0.6s;
+  cursor: pointer;
+}
+
+.social-icon_place_footer {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.social-icon_place_about {
+  width: 32px;
+  height: 32px;
+  fill: #015980;
+}
+
+.social-icon:hover {
+  opacity: 0.6;
+}
+
+.footer__copyright {
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #fff5ee;
+  margin: 30px 0 0 0;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: #4ad3de;
+  border-radius: 50%;
+  align-self: center;
+}
