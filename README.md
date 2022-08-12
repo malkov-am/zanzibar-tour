@@ -2,6 +2,9 @@
 
 Типовой одностраничный сайт, созданный по макету из Figma для практики в верстке.
 
+| [Демо проекта](https://zanzibar-tour.herokuapp.com/home.html) |
+|:----:|
+
 ## При создании сайта использовались следующие технологии:
 
 - HTML
@@ -16,4 +19,4 @@
 
 ## Ссылка на репозиторий проекта на GitHub:
 
-- [Ссылка на репозиторий](https://github.com/malkov-am/zanzibar-tour)
+- [https://github.com/malkov-am/zanzibar-tour](https://github.com/malkov-am/zanzibar-tour)
